@@ -50,6 +50,7 @@ h3 {
 }
 
 #ohmyfoodfooter {
+  filter: invert(100%);
 	color: white;
 	width: 30%;
 	display: flex;
@@ -59,7 +60,7 @@ h3 {
 	
 	}
 
-button {
+#bouttonexplorer {
   height: 50px;
   margin: 0;
    background-color: pink; 
@@ -78,6 +79,20 @@ button {
   padding-right: 20px;
 }
 
+#heartbutton{
+  background-color: white;
+  margin: -15px; 
+  position: relative;
+  float: right;
+  right: 8px;
+  font-weight: 1.3rem;
+  font-size: 15px;
+  padding: 0 10px;
+  border-radius: 60px 60px 60px 60px;
+  border: none;
+  cursor: pointer;
+  
+}
 
 
 
@@ -120,49 +135,30 @@ button {
   
 }
 
-#span1 {
-	background-color: mediumpurple;
-	color: white;
-	border-radius: 50%;
-  font-size: 1.4rem;
-  z-index: 2;
-   width: 32px;
-  height: 32px;  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-right: 20px;
+#spanF {
+  display: inline-block; 
+  margin-left: -40px;
+  min-width: 10px; 
+  padding: 5px; 
+  font-size: 1.0rem; 
+  font-weight: bold; 
+  line-height: 1; 
+  color: #ffffff; 
+  text-align: center; 
+  white-space: nowrap; 
+  vertical-align: baseline; 
+  background-color:#a85ddc; 
+  border-radius: 50%; 
+  text-shadow: none; 
 }
-#span2 {
-		background-color: mediumpurple;
-	color: white;
-	border-radius: 50%;
-  font-size: 1.4rem;
-  z-index: 2;
-   width: 32px;
-  height: 32px;  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-right: 20px;
-}
-#span3 {
-		background-color: mediumpurple;
-	color: white;
-	border-radius: 50%;
-  font-size: 1.4rem;
-  z-index: 2;
-   width: 32px;
-  height: 32px;  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-right: 20px;
-}
+
 
 .fonctionnement {
 position: relative;    
   align-items: center;
   margin-top: 20px;
    justify-content: space-between;
-   margin-left: 20px;
+   margin-left: 40px;
    margin-right: 20px;
    margin-bottom: 40px;
 
@@ -195,6 +191,10 @@ position: relative;
   z-index: 2;
   padding-right: 15px;
   padding-left: 15px;
+}
+
+.fonctionnement :hover i{
+  color: #a85ddc;
 }
 
 #dots {
@@ -267,6 +267,12 @@ font-size: 1rem;
 
   #blockrestaurants .card {
     margin-bottom: 30px;
+  }
+
+
+
+  #restaurantcoeur {
+    margin-top: 15px;
   }
 
     #blockrestaurants h2{
