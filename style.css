@@ -1,0 +1,323 @@
+Style.css
+
+/* ********************* < 510px ********************* */
+
+@media (max-width: 509px) {
+
+
+
+	@import url("https://use.fontawesome.com/releases/v5.8.1/css/all.css"):
+}
+
+	body{
+		
+		font-family: Raleway, Arial, Times New Roman;
+		margin: 0px;
+	}
+
+	h1 {
+  margin: 20px 20px 20px 20px;
+  font-size: 1.4rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+h3 {
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+	header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 75px;
+}
+
+	footer {
+    height: 150px;
+  margin-top: 50px;
+  font-size: 20px;
+  flex-direction: column;
+  padding: 40px 40px 40px 40px;
+  display: inline-flex;
+  background-color: #353535;
+  color:  white;
+  align-items: initial;
+  justify-content: space-between;
+}
+
+#ohmyfoodfooter {
+	color: white;
+	width: 30%;
+	display: flex;
+		height: auto;
+		margin-top: -20px;
+		padding-bottom: 20px;
+	
+	}
+
+button {
+  height: 50px;
+  margin: 0;
+   background-color: pink; 
+  background-image: linear-gradient(to bottom right, #e772da, #a85ddc);
+  color: white;
+  position: relative;
+  right: 8px;
+  font-weight: 900;
+  font-size: 18px;
+  padding: 0 10px;
+  border-radius: 60px 60px 60px 60px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+
+
+
+#fonctionnementun:hover {
+  background-color: #f5edff;
+}
+#fonctionnementdeux:hover {
+  background-color: #f5edff;
+}
+#fonctionnementtrois:hover {
+  background-color: #f5edff;
+}
+
+#fonctionnementun {
+  padding: 20px 50px 20px 25px;
+  border-radius: 60px 50px 60px 50px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+}
+#fonctionnementdeux {
+  padding: 20px 50px 20px 25px;
+  border-radius: 60px 50px 60px 50px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+}
+#fonctionnementtrois {
+  padding: 20px 50px 20px 25px;
+  border-radius: 60px 50px 60px 50px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  
+}
+
+#span1 {
+	background-color: mediumpurple;
+	color: white;
+	border-radius: 50%;
+  font-size: 1.4rem;
+  z-index: 2;
+   width: 32px;
+  height: 32px;  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+#span2 {
+		background-color: mediumpurple;
+	color: white;
+	border-radius: 50%;
+  font-size: 1.4rem;
+  z-index: 2;
+   width: 32px;
+  height: 32px;  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+#span3 {
+		background-color: mediumpurple;
+	color: white;
+	border-radius: 50%;
+  font-size: 1.4rem;
+  z-index: 2;
+   width: 32px;
+  height: 32px;  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.fonctionnement {
+position: relative;    
+  align-items: center;
+  margin-top: 20px;
+   justify-content: space-between;
+   margin-left: 20px;
+   margin-right: 20px;
+   margin-bottom: 40px;
+
+ 
+}
+
+.fonctionnement h3 {
+  text-align: center;
+  position: relative;
+  right: 20px;
+/*
+  padding: 20px 50px 20px 25px;
+  border-radius: 60px 50px 60px 50px;
+ box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; 
+*/
+  white-space: nowrap;
+  font-size: 1.0rem;
+  width: 100%;
+}
+
+.fonctionnement i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  z-index: 2;
+}
+
+#dots{
+  width: 2px;
+  height: auto;
+}
+
+
+
+#découvrez {
+	  margin: 20px 20px 20px 20px;
+  font-size: 1.2rem;
+}
+
+.blocklocres{
+	display: block;
+	justify-content: initial;
+}
+
+	.topnavomf {
+		  height: 40%;
+    position: flex;
+    top: 60%;
+    width: 50%;
+}
+
+	#ohmyfoodlogo {
+	width: 80%;
+	display: flex;
+		height: auto;
+		align-items: center;
+		padding: 20px;
+		margin-left: 50%;
+	}
+
+	#réservez {
+		display: block;
+		background-color: #f6f6f6;
+		margin-top: 0 !important;
+		text-align: center;
+		padding: 40px;
+	}
+
+	.localisation h3{
+		font-size: 20px;
+	}
+
+	.localisation {
+		margin-bottom: 0 !important;
+		display: block;
+		background-color: #eaeaea;
+		padding: 20px;
+		text-align: center;
+		box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(204, 219, 232) 3px 3px 6px 0px inset;
+	}
+
+	#localisationicone{
+		font-size: 20px;
+	}
+
+  .cardsInline {
+    flex-direction: column;
+  }
+
+  #blockrestaurants .card {
+    margin-bottom: 30px;
+  }
+
+    #blockrestaurants h2{
+      font-size: 24px;
+      padding-bottom: 25px;
+      padding-top: 25px;
+    }
+
+    #blockrestaurants {
+      background-color: #f6f6f6;
+    width: 100%;
+    padding: 30px 15px;
+    margin-top: 20px;
+    order: 2;
+  }
+
+a, a:hover, a:focus, a:active {
+      text-decoration: none;
+      color: inherit;
+}
+
+.card {
+  display: flex;
+  height: 300px;
+  width: 90%;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0px 1px 19px 0px #bcbcbc;
+  color: black;
+}
+
+.card a {
+  width: 100%;
+}
+
+.cardPhoto {
+  width: 100%;
+  height: 80%;
+  border-radius: 20px 20px 0 0;
+  overflow: hidden;
+}
+
+.cardPhoto img {
+  height: 100%;
+  width: 100%;
+}
+
+.cardText {
+  padding: 5px 10px;
+  line-height: 15px;
+  white-space: nowrap;
+}
+
+.card i{
+  float: right;
+  font-size: 1.4em;
+}
+
+}
+
+/* ************************ < 670px *********************** 
+@media (max-width: 670px) {		*/
+
