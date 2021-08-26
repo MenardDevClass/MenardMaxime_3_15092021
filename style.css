@@ -2,7 +2,7 @@ Style.css
 
 /* ********************* < 510px ********************* */
 
-@media (max-width: 509px) {
+@media (max-width: 510px) {
 
 
 
@@ -13,10 +13,13 @@ Style.css
 		
 		font-family: Raleway, Arial, Times New Roman;
 		margin: 0px;
-    margin-right: 0%;
+    margin-right: 0px;
 	}
-body{margin-right: 0%;}
-	h1 {
+body{
+  width: 360px;
+  margin-right: 0%;
+}
+  h1 {
   margin: 20px 20px 20px 20px;
   font-size: 1.4rem;
 }
@@ -371,13 +374,29 @@ a, a:hover, a:focus, a:active {
   border-radius:25px;
 }
 
-#menufrançais1::after{
+
+
+#menuhead::after{
   content: "";
   display: block;
   width: 32px;
   padding-top: 3px;
   border-bottom: 2px solid #99e2d0  ;
 
+}
+
+
+
+
+
+
+
+
+#menufrançais1::after{
+  content: "";
+  display: block;
+  width: 32px;
+  padding-top: 3px;
 }
 #menufrançais1 {
   padding: 20px 0 10px 10px;
@@ -388,7 +407,7 @@ a, a:hover, a:focus, a:active {
   display: block;
   width: 32px;
   padding-top: 3px;
-  border-bottom: 2px solid #99e2d0  ;
+ 
 
 }
 #menufrançais2 {
@@ -400,7 +419,7 @@ a, a:hover, a:focus, a:active {
   display: block;
   width: 32px;
   padding-top: 3px;
-  border-bottom: 2px solid #99e2d0  ;
+  
 
 }
 #menufrançais3 {
@@ -486,7 +505,7 @@ font-size: 1.2em;
   overflow: hidden;
 }
 .blockfrançaise #menufrançais2 {
-  animation: 2s ease-out 0s 1 slideInFromBottom;
+  animation: 1.5s ease-out 0s 1 slideInFromBottom;
   margin-top: 0%;
   overflow: hidden;
 }
@@ -505,6 +524,26 @@ font-size: 1.2em;
       transform:translateY(0);
     }
   }
+
+  #overlay {
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+    background-color: #99e2d0;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+    padding: 50px;
+  }
+  
+  .cardprix:hover #overlay {
+    width: 100%;
+    left: 0;
+  }
+  
+  
 
 
 }
