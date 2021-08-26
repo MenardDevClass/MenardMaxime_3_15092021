@@ -1,0 +1,461 @@
+Style.css
+
+/* ********************* < 510px ********************* */
+
+@media (max-width: 509px) {
+
+
+
+	@import url("https://use.fontawesome.com/releases/v5.8.1/css/all.css"):
+}
+
+	body{
+		
+		font-family: Raleway, Arial, Times New Roman;
+		margin: 0px;
+    margin-right: 0%;
+	}
+body{margin-right: 0%;}
+	h1 {
+  margin: 20px 20px 20px 20px;
+  font-size: 1.4rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+h3 {
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+	header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 75px;
+}
+
+	footer {
+    width: 100%;
+    height: 200px;
+  margin-top: 50px;
+  font-size: 20px;
+  flex-direction: column;
+  padding: 40px 40px 40px 40px;
+  display: inline-flex;
+  background-color: #353535;
+  color:  white;
+  align-items: initial;
+  justify-content: space-between;
+}
+
+#ohmyfoodfooter {
+  filter: invert(100%);
+	color: white;
+	width: 30%;
+	display: flex;
+		height: auto;
+		margin-top: -20px;
+		padding-bottom: 20px;
+	
+	}
+
+#bouttonexplorer {
+  height: 50px;
+  margin: 0;
+   background-color: pink; 
+  background-image: linear-gradient(to bottom right, #e772da, #a85ddc);
+  color: white;
+  position: relative;
+  right: 8px;
+  font-weight: 900;
+  font-size: 18px;
+  padding: 0 10px;
+  border-radius: 60px 60px 60px 60px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#heartbutton{
+  background-color: white;
+  margin: -15px; 
+  position: relative;
+  float: right;
+  right: 8px;
+  font-weight: 1.3rem;
+  font-size: 15px;
+  padding: 0 10px;
+  border-radius: 60px 60px 60px 60px;
+  border: none;
+  cursor: pointer;
+  
+}
+
+
+
+
+#fonctionnementun:hover {
+  background-color: #f5edff;
+}
+#fonctionnementdeux:hover {
+  background-color: #f5edff;
+}
+#fonctionnementtrois:hover {
+  background-color: #f5edff;
+}
+
+#fonctionnementun {
+  padding: 40px 50px 40px 25px;
+  border-radius: 60px 50px 60px 50px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+}
+#fonctionnementdeux {
+  padding: 40px 50px 40px 25px;
+  border-radius: 60px 50px 60px 50px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+}
+#fonctionnementtrois {
+  padding: 40px 50px 40px 25px;
+  border-radius: 60px 50px 60px 50px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  
+}
+
+#spanF {
+  display: inline-block; 
+  margin-left: -40px;
+  min-width: 10px; 
+  padding: 5px; 
+  font-size: 1.0rem; 
+  font-weight: bold; 
+  line-height: 1; 
+  color: #ffffff; 
+  text-align: center; 
+  white-space: nowrap; 
+  vertical-align: baseline; 
+  background-color:#a85ddc; 
+  border-radius: 50%; 
+  text-shadow: none; 
+}
+
+
+.fonctionnement {
+position: relative;    
+  align-items: center;
+  margin-top: 20px;
+   justify-content: space-between;
+   margin-left: 40px;
+   margin-right: 20px;
+   margin-bottom: 40px;
+
+ 
+}
+
+.fonctionnement h3 {
+  text-align: center;
+  position: relative;
+  right: 20px;
+/*
+  padding: 20px 50px 20px 25px;
+  border-radius: 60px 50px 60px 50px;
+ box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; 
+*/
+  white-space: nowrap;
+  font-size: 1.4rem;
+  width: 100%;
+  padding-left: 20px;
+  font-size: 1.2em;
+}
+
+.fonctionnement i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  z-index: 2;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.fonctionnement :hover i{
+  color: #a85ddc;
+}
+
+#dots {
+margin-right: -35px;
+padding-right: 0px;
+margin-left: -10px;
+font-size: 1rem;
+}
+
+#bars {
+  
+  padding-left: 0px;
+  font-size: 1rem;
+}
+
+#découvrez {
+	  margin: 20px 20px 20px 20px;
+  font-size: 1.2rem;
+}
+
+.blocklocres{
+	display: block;
+	justify-content: initial;
+}
+
+	.topnavomf {
+    margin-top: 
+    position: flex;
+    top: 60%;
+    width: 100%;
+    padding: 20px;
+}
+
+.topnavomf i{
+  top: 40px;
+  display: flex;
+}
+#leftarrow{
+  padding-left: 10px;
+  padding-bottom: 10px;
+  float: left;
+  display: flex;
+  font-size: 1.4em;
+ 
+  
+}
+
+	#ohmyfoodlogo {
+    margin-left: 20%;
+   
+	width: 30%;
+		height: auto;
+
+	}
+
+	#réservez {
+		display: block;
+		background-color: #f6f6f6;
+		margin-top: 0 !important;
+		text-align: center;
+		padding: 40px;
+	}
+
+	.localisation h3{
+		font-size: 20px;
+	}
+
+	.localisation {
+		margin-bottom: 0 !important;
+		display: block;
+		background-color: #eaeaea;
+		padding: 20px;
+		text-align: center;
+		box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(204, 219, 232) 3px 3px 6px 0px inset;
+	}
+
+	#localisationicone{
+		font-size: 20px;
+	}
+
+  .cardsInline {
+    flex-direction: column;
+  }
+
+  #blockrestaurants .card {
+    margin-bottom: 30px;
+  }
+
+
+
+  #restaurantcoeur {
+    margin-top: 15px;
+  }
+
+    #blockrestaurants h2{
+      font-size: 24px;
+      padding-bottom: 25px;
+      padding-top: 25px;
+    }
+
+    #blockrestaurants {
+      background-color: #f6f6f6;
+    width: 100%;
+    padding: 30px 15px;
+    margin-top: 20px;
+    order: 2;
+  }
+
+a, a:hover, a:focus, a:active {
+      text-decoration: none;
+      color: inherit;
+}
+
+.card {
+  display: flex;
+  height: 300px;
+  width: 90%;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0px 1px 19px 0px #bcbcbc;
+  color: black;
+}
+
+.card a {
+ 
+}
+
+.cardPhoto {
+  width: 100%;
+  height: 80%;
+  border-radius: 20px 20px 0 0;
+  overflow: hidden;
+}
+
+.cardPhoto img {
+  
+  width: 100%;
+}
+
+.cardText {
+  padding: 5px 10px;
+  line-height: 15px;
+  white-space: nowrap;
+}
+
+.card i{
+  float: right;
+  font-size: 1.4em;
+}
+
+#alafrançaisebackground .blockfrançaise {
+  padding-top: 50px;
+
+}
+
+#restofrançais {
+  width: 100%;
+  overflow: hidden;
+  
+}
+#restopalette {
+  width: 100%;
+  overflow: hidden;
+  
+}
+
+.blockfrançaise {
+  position: relative;
+  background-color: white;
+  padding-top: 50px;
+  margin-top: -100px;
+  border-radius:25px;
+}
+
+#menufrançais::after{
+  content: "";
+  display: block;
+  width: 32px;
+  padding-top: 3px;
+  border-bottom: 2px solid #99e2d0  ;
+
+}
+#menufrançais {
+  padding: 20px 0 10px 10px;
+}
+
+
+.cardprix {
+  display: flex;
+  height: 80px;
+  width: 100%;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0px 1px 19px 0px #bcbcbc;
+  color: black;
+  margin-bottom: 10px;
+}
+.cardprix a {
+  width: 100%;
+}
+.cardTextprix {
+  padding: 15px 10px;
+  line-height: 15px;
+  white-space: nowrap;
+}
+#cardprice{
+  float: right;
+  
+}
+#carddetail{
+  float: left;
+  max-width: 10px;
+  font-size: 0.7em;
+}
+
+.cardsInline {
+  flex-direction: column;
+}
+
+.blockfrançaise .card {
+  margin-bottom: 30px;
+  
+}
+
+.blockfrançaise h3 {
+font-size: 1.2em;
+}
+.blockfrançaise p {
+  font-size: 0.7em;
+}
+
+
+#bouttonmenus {
+  height: 50px;
+  scroll-margin-left: 50%;
+   background-color: pink; 
+  background-image: linear-gradient(to bottom right, #e772da, #a85ddc);
+  color: white;
+  position: relative;
+  right: 8px;
+  font-weight: 900;
+  font-size: 18px;
+  padding: 0 10px;
+  border-radius: 60px 60px 60px 60px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.containermenu {
+  margin-left: 30%;
+}
+
+}
+}
+
+/* ************************ < 670px *********************** 
+@media (max-width: 670px) {		*/
+
