@@ -13,10 +13,10 @@ Style.css
 		
 		font-family: Raleway, Arial, Times New Roman;
 		margin: 0px;
-    margin-right: 0px;
+    padding: 0px;
 	}
 body{
-  width: 360px;
+  width: 100%;
   margin-right: 0%;
 }
   h1 {
@@ -41,12 +41,12 @@ h3 {
 }
 
 	footer {
-    width: 100%;
+   
     height: 200px;
   margin-top: 50px;
   font-size: 20px;
   flex-direction: column;
-  padding: 40px 40px 40px 40px;
+  padding: 40px 0 40px 40px;
   display: inline-flex;
   background-color: #353535;
   color:  white;
@@ -230,13 +230,10 @@ font-size: 1rem;
     position: flex;
     top: 60%;
     width: 100%;
-    padding: 20px;
+    padding-top: 15px;
 }
 
-.topnavomf i{
-  top: 40px;
-  display: flex;
-}
+
 #leftarrow{
   padding-left: 10px;
   padding-bottom: 10px;
@@ -249,7 +246,12 @@ font-size: 1rem;
 
 	#ohmyfoodlogo {
     margin-left: 20%;
-   
+	width: 30%;
+		height: auto;
+
+	}
+  #ohmyfoodlogomain {
+    margin-left: 35%;
 	width: 30%;
 		height: auto;
 
@@ -302,8 +304,8 @@ font-size: 1rem;
 
     #blockrestaurants {
       background-color: #f6f6f6;
+      align-items: center;
     width: 100%;
-    padding: 30px 15px;
     margin-top: 20px;
     order: 2;
   }
@@ -316,16 +318,14 @@ a, a:hover, a:focus, a:active {
 .card {
   display: flex;
   height: 300px;
-  width: 90%;
+  width: 100%;
   background-color: white;
   border-radius: 20px;
   box-shadow: 0px 1px 19px 0px #bcbcbc;
   color: black;
 }
 
-.card a {
- 
-}
+
 
 .cardPhoto {
   width: 100%;
@@ -551,4 +551,3 @@ font-size: 1.2em;
 
 /* ************************ < 670px *********************** 
 @media (max-width: 670px) {		*/
-
