@@ -79,8 +79,8 @@ h3 {
 #bouttonexplorer {
   height: 50px;
   margin: 0;
-   background-color: pink; 
-  background-image: linear-gradient(to bottom right, #e772da, #a85ddc);
+   background-color: #FF79DA; 
+  background-image: linear-gradient(to bottom right, #FF79DA, #9356dc);
   color: white;
   position: relative;
   right: 8px;
@@ -142,7 +142,7 @@ h3 {
   display: inline-block; 
   margin-left: -40px;
   min-width: 10px; 
-  padding: 7px; 
+  padding: 7px 10px 7px 10px; 
   font-size: 1.0rem; 
   font-weight: bold; 
   line-height: 1; 
@@ -150,7 +150,7 @@ h3 {
   text-align: center; 
   white-space: nowrap; 
   vertical-align: baseline; 
-  background-color:#a85ddc; 
+  background-color:#9356DC; 
   border-radius: 50%; 
   text-shadow: none; 
 }
@@ -306,7 +306,7 @@ font-size: 1rem;
   }
   
  #heartbutton:hover{
-   color: hotpink;
+   color: #9356DC;
  }
 
   #restaurantcoeur {
@@ -323,10 +323,10 @@ font-size: 1rem;
     padding: 20px;
   }
   #restaurantcoeurn:hover{
-    color: hotpink;
+    color: #9356DC;
   }
   #restaurantcoeur:hover{
-    color: hotpink;
+    color: #9356DC;
   }
 
     #blockrestaurants h2{
@@ -346,6 +346,7 @@ font-size: 1rem;
 a, a:hover, a:focus, a:active {
       text-decoration: none;
       color: inherit;
+      
 }
 
 .card {
@@ -445,6 +446,7 @@ width:25px;
 #menufrançais1 {
   padding: 20px 0 10px 10px;
   margin-right: 0;
+  
 }
 
 #menufrançais2::after{
@@ -568,7 +570,7 @@ font-size: 1em;
   height: 50px;
   scroll-margin-left: 50%;
    background-color: pink; 
-  background-image: linear-gradient(to bottom right, #e772da, #a85ddc);
+  background-image: linear-gradient(to bottom right, #FF79DA, #9356DC);
   color: white;
   position: relative;
   right: 8px;
@@ -594,19 +596,54 @@ font-size: 1em;
 .blockfrançaise #menufrançais1 {
   animation: 1s ease-out 0s 1 slideInFromBottom;
   margin-top: 0%;
-  overflow: hidden;
-  
+  overflow: hidden;    
+  animation: fadein 2s;
+  -moz-animation: fadein 2s; 
+  -webkit-animation: fadein 2s; 
+  -o-animation: fadein 2s; 
+}
+@keyframes fadein {
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
 }
 
 .blockfrançaise #menufrançais2 {
   animation: 1.5s ease-out 0s 1 slideInFromBottom;
   margin-top: 0%;
   overflow: hidden;
+  animation: fadein 4s;
+  -moz-animation: fadein 4s; 
+  -webkit-animation: fadein 4s; 
+  -o-animation: fadein 3s; 
+}
+@keyframes fadein {
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
 }
 .blockfrançaise #menufrançais3 {
   animation: 3s ease-out 0s 1 slideInFromBottom;
   margin-top: 0%;
   overflow: hidden;
+  animation: fadein 5s;
+  -moz-animation: fadein 5s;
+  -webkit-animation: fadein 5s; 
+  -o-animation: fadein 5s; 
+}
+@keyframes fadein {
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
 }
 
 
@@ -628,16 +665,14 @@ font-size: 1em;
 }
 }
 
- /************************  670px *********************** */
+ /************************  881px *********************** */
 
 
 
-@media (max-width: 670px) {		
+@media (max-width: 881px) {		
 
 
 
-footer {
 
-}
 
 }
