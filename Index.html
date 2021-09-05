@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
+    <title>Oh My Food</title>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    		   <title>OhMyFood</title>
+    		  
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
@@ -12,19 +13,29 @@
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
     
-
-    	<title>Oh My Food</title>
+  </head>	
+    	
     		
  	<body>
+          <div class="loadingspinner">
+            <div id="loadingspinner">
+              <i class="fas fa-utensils"></i>
+            </div>
+          </div>
+
                 <nav class="topnavomf">
-                <img id="ohmyfoodlogomain" src="images/logo/ohmyfood.png">
+                <img id="ohmyfoodlogomain" src="images/logo/ohmyfood.png" alt="ohmyfoodlogo">
                 </nav>
-            </head>	
+            
+            
 
             <div  class="blocklocres">		
               <div class="localisation">
-                <h3><i id="localisationicone" class="fas fa-map-marker-alt"></i></span> Paris, Belleville</h3>
+                <h3><i id="localisationicone" class="fas fa-map-marker-alt"></i> Paris, Belleville</h3>
               </div>	
 
 
@@ -63,11 +74,6 @@
                         </div>
                       </div>	
 
-
-
-
-                    
-
               <section id="blockrestaurants">
                   <h2>Restaurants</h2>
                   <div class="cardsInline">
@@ -78,12 +84,14 @@
                             src="images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
                             alt=""
                           /></a>
+                          <p id="nouveau">Nouveau</p>
                         </div>
-                        <p id="nouveau">Nouveau</p>
+                        
+                        
                         <div class="cardText">
-                          <h3>La palette du goût<i id="restaurantcoeurn" class="fas fa-heart"></i></h3>
+                          <h3>La palette du goût</h3>
                           <p>Ménilmontant</p>
-                          
+                          <i id="restaurantcoeurn" class="fas fa-heart"></i>
                         </div>
                      
                     </div>
@@ -95,12 +103,15 @@
                             src="./images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg"
                             alt=""
                           /></a>
+                          <p id="nouveau">Nouveau</p>
                         </div>
-                        <p id="nouveau">Nouveau</p>
+                        
+                       
+                        
                         <div class="cardText">
-                          <h3>La note enchantée<i id="restaurantcoeurn" class="fas fa-heart"></i></h3>
+                          <h3>La note enchantée</h3>
                           <p>Charonne</p>
-                    
+                          <i id="restaurantcoeurn" class="fas fa-heart"></i>
                         </div>
                       
                     
@@ -113,10 +124,11 @@
                             alt=""
                           /> </a>
                         </div>
+                       
                         <div class="cardText">
-                          <h3>À la française<i id="restaurantcoeur" class="fas fa-heart"></i></h3>
+                          <h3>À la française</h3>
                           <p>Cité Rouge</p>
-                    
+                          <i id="restaurantcoeurn" class="fas fa-heart"></i>
                         </div>
                      
                     
@@ -130,10 +142,11 @@
                             alt=""
                           />  </a>
                         </div>
+                       
                         <div class="cardText">
-                          <h3>Le délice des sens<i id="restaurantcoeur" class="fas fa-heart"></i></h3>
+                          <h3>Le délice des sens</h3>
                           <p>Folie-Méricourt</p>
-                    
+                          <i id="restaurantcoeurn" class="fas fa-heart"></i>
                         </div>
                     
                     
@@ -149,25 +162,26 @@
 
                       <footer>
                           
-                          <img id="ohmyfoodfooter" src="images/logo/ohmyfood.png">
+                        <h2 id="shrikhandh2">ohmyfood</h2>
 
                           <div id="footerlines">
-                            <h3><span><i class="fas fa-utensils"></i></span>&nbsp;&nbsp;&nbsp;&nbsp;Proposer un restaurant</h3>
+                            <h3><span>&nbsp;&nbsp;<i class="fas fa-utensils"></i></span>&nbsp;&nbsp;Proposer un restaurant</h3>
                           </div>
 
                           <div id="footerlines">
-                            <h3><span><i class="fas fa-hands-helping"></i></span>&nbsp;&nbsp;&nbsp;&nbsp;Devenir partenaire</h3>
+                            <h3><span>&nbsp;&nbsp;<i class="fas fa-hands-helping"></i></span>&nbsp;&nbsp;Devenir partenaire</h3>
                           </div>
 
-                          <div id="footerlines"><h3>Mentions légales</h3>
+                          <div id="footerlines"><h3>&nbsp;&nbsp;Mentions légales</h3>
                           </div>
 
-                          <div id="footerlines"><h3>Contact</h3>
+                          <div id="footerlines"><a href="mailto:ohmyfood@contact.com" target="_top"><h3>&nbsp;&nbsp;Contact</h3></a>
                           </div>
 
                       </footer>
 
-         
+                      
+      	
 
 
   </body>
