@@ -1,189 +1,162 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-    <title>Oh My Food</title>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    		  
+    		   <title>OhMyFood</title>
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-      crossorigin="anonymous"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
-    
-  </head>	
-    	
+      crossorigin="anonymous"/>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+
+    </head>	
     		
- 	<body>
-          <div class="loadingspinner">
-            <div id="loadingspinner">
-              <i class="fas fa-utensils"></i>
-            </div>
-          </div>
+      <body>
+                            <nav class="topnavomf">
+                                <a href="Index.html"><i id="leftarrow" class="fas fa-arrow-left"></i></a>
+                                <img id="ohmyfoodlogo" src="images/logo/ohmyfood.png">
+                            </nav>
+                   
 
-                <nav class="topnavomf">
-                <img id="ohmyfoodlogomain" src="images/logo/ohmyfood.png" alt="ohmyfoodlogo">
-                </nav>
-            
-            
+                            <div id="menuimage">
+                        <img id="restofrançais" src="./images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg">
+                                </div>
 
-            <div  class="blocklocres">		
-              <div class="localisation">
-                <h3><i id="localisationicone" class="fas fa-map-marker-alt"></i> Paris, Belleville</h3>
-              </div>	
-
-
-              <div id="réservez">
-                  <h1>Réservez le menu qui vous convient</h1>
-                  <p id="découvrez">Découvrez des restaurants d'exception, séléctionnés par nos soins.</p>
-              
-              
-                  <div class="container">
-                      <button id="bouttonexplorer">
-                      <span id="rechercher">Explorer nos restaurants</span>
-                      </button>	
-                    </div>	 
-                  </div>
-              </div>		
-
-                <h1>Fonctionnement</h1>	
-                
-                      <div class="fonctionnement">
+                    <div class="blockfrançaise">
                         
-                        <div id="fonctionnementun">
-                          <span id="spanF">1</span>
-                          <span><i class="fas fa-mobile-alt"></i></span><h3> Choisissez un restaurant</h3>
-                        </div>
-                        
-                        <div id="fonctionnementdeux">	
-                          <span id="spanF">2</span>
-                          <div id="logomenu" ><i id="dots" class="fas fa-ellipsis-v"></i></div> <div id="bars"><i class="fas fa-bars"></i>
-                          </div>
-                          <h3>Composez votre menu</h3>
-                        </div>
-                        
-                        <div id="fonctionnementtrois">  
-                          <span id="spanF">3</span>                 
-                          <span><i class="fas fa-store"></i></span> <h3>Dégustez au restaurant</h3>
-                        </div>
-                      </div>	
 
-              <section id="blockrestaurants">
-                  <h2>Restaurants</h2>
-                  <div class="cardsInline">
-                    <div class="card">
-                      
-                        <div class="cardPhoto">
-                          <a href="palettedugoût.html"><img
-                            src="images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
-                            alt=""
-                          /></a>
-                          <p id="nouveau">Nouveau</p>
-                        </div>
+                        <h2 id="shrikhandh2">Le délice des sens
+                            <div class="favorispage">
+                                <div id="heartbutton">
+                                <i class="fas fa-heart"></i>
+                                
+                                </div>	
+                            </h2>
+                        <div id="menufrançais1"><p id="menuhead">ENTRÉES</p>
+                                <div class="cardsInline">  
+                                <div class="cardprix">
+                                    
+                                        <div class="cardTextprix">
+                                            <h3>Tartare de thon</h3>
+                                            <p id="carddetail">Assaisonné au yuzu</p><p id="cardprice">25€</p>
+                                        </div>
+                                    
+                                    <div class="overlay"><i id="check" class="fas fa-check"></i></div>
+                                    </div>
+                                
+                                    <div class="cardprix">
+                                        
+                                            <div class="cardTextprix">
+                                                <h3>Bouchée de homard croustillant  </h3>
+                                                <p id="carddetail">Et sa farandole de petits légumes</p><p id="cardprice">35€</p>
+                                            </div>
+                                        
+                                        <div class="overlay"><i id="check" class="fas fa-check"></i></div>
+                                        </div>
+                                        <div class="cardprix">
+                                           
+                                                <div class="cardTextprix">
+                                                    <h3>Velouté de cèpes </h3>
+                                                    <p id="carddetail">Aux truffes</p><p id="cardprice">20€</p>
+                                                </div>
+                                            
+                                            <div class="overlay"><i id="check" class="fas fa-check"></i></div>      
+                                        </div>               
+                                </div> 
+                        </div>   
                         
-                        
-                        <div class="cardText">
-                          <h3>La palette du goût</h3>
-                          <p>Ménilmontant</p>
-                          <i id="restaurantcoeurn" class="fas fa-heart"></i>
-                        </div>
-                     
+                            <div id="menufrançais2"><p id="menuhead">PLATS</p>
+
+                                <div class="cardsInline">  
+                                    <div class="cardprix">
+                                            <div class="cardTextprix">
+                                                <h3>Poulet rôti aux herbes de Provence </h3>
+                                                <p id="carddetail">Et sa crème de truffe</p><p id="cardprice">40€</p>
+                                            </div>
+                                        
+                                        <div class="overlay"><i id="check" class="fas fa-check"></i></div>
+                                        </div>
+                                    
+                                        <div class="cardprix">
+                                                <div class="cardTextprix">
+                                                    <h3>Langouste rôtie </h3>
+                                                    <p id="carddetail">Et ses légumes de saison</p><p id="cardprice">35€</p>
+                                                </div>
+                                           
+                                            <div class="overlay"><i id="check" class="fas fa-check"></i></div>
+                                            </div>
+                                            <div class="cardprix">
+                                                    <div class="cardTextprix">
+                                                        <h3>Côte de boeuf Angus </h3>
+                                                        <p id="carddetail">Et sa purée de panais</p> <p id="cardprice">44€</p>
+                                                    </div> 
+                                                <div class="overlay"><i id="check" class="fas fa-check"></i></div>      
+                                            </div>               
+                                    </div> 
+                            </div>   
+                                
+                            <div id="menufrançais3"><p id="menuhead">DESSERTS</p>
+
+                            <div class="cardsInline">  
+                                <div class="cardprix">
+                                        <div class="cardTextprix">
+                                            <h3>Farandole de desserts</h3>
+                                            <p id="carddetail">Du chef</p><p id="cardprice">18€</p>
+                                        </div>
+                                    <div class="overlay"><i id="check" class="fas fa-check"></i></div>
+                                    </div>
+                                
+                                    <div class="cardprix">
+                                            <div class="cardTextprix">
+                                                <h3>Crème brulée </h3>
+                                                <p id="carddetail">Revisitée</p><p id="cardprice">22€</p>
+                                            </div>
+                                        <div class="overlay"><i id="check" class="fas fa-check"></i></div>
+                                        </div>
+                                        <div class="cardprix">
+                                                <div class="cardTextprix">
+                                                    <h3>Tiramisu </h3>
+                                                    <p id="carddetail">À la noisette</p><p id="cardprice">23€</p>
+                                                </div>
+                                            <div class="overlay"><i id="check" class="fas fa-check"></i></div>        
+                                        </div>               
+                                </div> 
+
+                                <div class="containermenu">
+                                    <button id="bouttonmenus">
+                                    <span id="rechercher">Commander</span>
+                                    </button>	
+                                </div>
+                            </div>    
+                                
                     </div>
-                    
-                    <div class="card">
-                     
-                        <div class="cardPhoto">
-                          <a href="lanoteenchantée.html"><img
-                            src="./images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg"
-                            alt=""
-                          /></a>
-                          <p id="nouveau">Nouveau</p>
-                        </div>
-                        
-                       
-                        
-                        <div class="cardText">
-                          <h3>La note enchantée</h3>
-                          <p>Charonne</p>
-                          <i id="restaurantcoeurn" class="fas fa-heart"></i>
-                        </div>
-                      
-                    
-                    </div>
-                    <div class="card">
-                      
-                        <div class="cardPhoto">
-                          <a href="alafrançaise.html"><img
-                            src="./images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg"
-                            alt=""
-                          /> </a>
-                        </div>
-                       
-                        <div class="cardText">
-                          <h3>À la française</h3>
-                          <p>Cité Rouge</p>
-                          <i id="restaurantcoeurn" class="fas fa-heart"></i>
-                        </div>
-                     
-                    
-                    </div>
-                  
-                    <div class="card">
-                      
-                        <div class="cardPhoto">
-                          <a href="délicesens.html"><img
-                            src="./images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg"
-                            alt=""
-                          />  </a>
-                        </div>
-                       
-                        <div class="cardText">
-                          <h3>Le délice des sens</h3>
-                          <p>Folie-Méricourt</p>
-                          <i id="restaurantcoeurn" class="fas fa-heart"></i>
-                        </div>
-                    
-                    
-                    </div>
-                  </div>
                 </div>
-                </section>
+                </div>
+                <footer>
+                                        
+                    <h2 id="shrikhandh2">ohmyfood</h2>
 
+                    <div id="footerlines">
+                    <h3><span>&nbsp;&nbsp;<i class="fas fa-utensils"></i></span>&nbsp;&nbsp;Proposer un restaurant</h3>
+                    </div>
 
+                    <div id="footerlines">
+                    <h3><span>&nbsp;&nbsp;<i class="fas fa-hands-helping"></i></span>&nbsp;&nbsp;Devenir partenaire</h3>
+                    </div>
 
+                    <div id="footerlines"><h3>&nbsp;&nbsp;Mentions légales</h3>
+                    </div>
 
+                    <div id="footerlines"><a href="mailto:ohmyfood@contact.com" target="_top"><h3>&nbsp;&nbsp;Contact</h3></a>
+                    </div>
 
+                </footer>
 
-                      <footer>
-                          
-                        <h2 id="shrikhandh2">ohmyfood</h2>
-
-                          <div id="footerlines">
-                            <h3><span>&nbsp;&nbsp;<i class="fas fa-utensils"></i></span>&nbsp;&nbsp;Proposer un restaurant</h3>
-                          </div>
-
-                          <div id="footerlines">
-                            <h3><span>&nbsp;&nbsp;<i class="fas fa-hands-helping"></i></span>&nbsp;&nbsp;Devenir partenaire</h3>
-                          </div>
-
-                          <div id="footerlines"><h3>&nbsp;&nbsp;Mentions légales</h3>
-                          </div>
-
-                          <div id="footerlines"><a href="mailto:ohmyfood@contact.com" target="_top"><h3>&nbsp;&nbsp;Contact</h3></a>
-                          </div>
-
-                      </footer>
-
-                      
-      	
-
-
-  </body>
-
+    </body>  
 </html>
