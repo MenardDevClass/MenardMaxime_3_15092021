@@ -1,51 +1,9 @@
-Style.css
-
-
-/************************  881px *********************** */
-
-
-@media (max-width: 881px) {	
-
-  body {
-    width:100%;
-    height:auto;
-  }
- 
-
-  #restopalette {
-    max-height: auto;;
-    max-width: 50%;
-    overflow: hidden;
-    
-  }
-
-}
-
-/************************  670px *********************** */
-
-@media (max-width: 670px) {	
-
- 
-  #bouttonmenu {
-    margin-left: 30%;
-  }
-  
-
-  #restopalette {
-    height: auto;
-    width: 50%;
-    overflow: hidden;
-    
-  }
-
-}
-
-
+style.css
 
 
 /* ********************* < 510px ********************* */
 
-@media (max-width: 510px) {
+@media screen and (max-width: 510px) {
 
 
 
@@ -81,6 +39,7 @@ Style.css
     h3 {
       font-size: 0.9rem;
       margin: 0;
+      padding: 0;
     }
 
       header {
@@ -92,21 +51,24 @@ Style.css
 
       #footerlines{
         width: 100%;
+        padding-top: 10px;
+      }
+
+      #footerlines h3{
+        font-size: 1.2em;
       }
       footer {
-        padding-left: 10px;
-        width: 100%;
-      display: flex;
+        margin-top: 30px;
         height: 200px;
-      margin-top: 50px;
-      font-size: 20px;
-      flex-direction: column;
-      padding: 40px 0 40px 0;
-      display: inline-flex;
+      padding-top: 40px;
+      padding-left: 10%;
+      padding-bottom: 20px;
       background-color: #353535;
       color:  white;
       align-items: initial;
       justify-content: space-between;
+      display: flex;
+      flex-direction: column;
     }
 
     
@@ -137,7 +99,10 @@ Style.css
       }
     
 
-
+      #fonctionnementh1{
+        padding-top: 30px;
+        padding-bottom: 30px;
+      }
 
     #fonctionnementun:hover {
       background-color: #f5edff;
@@ -150,31 +115,41 @@ Style.css
     }
 
     #fonctionnementun {
+      margin: auto;
       padding: 30px 30px 30px 25px;
-      border-radius: 60px 50px 60px 50px;
+      border-radius: 30px 30px 30px 30px;
       display: flex;
       align-items: center;
       margin-top: 20px;
       box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+      max-width: 510px;
 
     }
     #fonctionnementdeux {
+      margin: auto;
       padding: 30px 30px 30px 25px;
-      border-radius: 60px 50px 60px 50px;
+      border-radius: 30px 30px 30px 30px;
       display: flex;
       align-items: center;
       margin-top: 20px;
       box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+      max-width: 510px;
 
     }
     #fonctionnementtrois {
+      margin: auto;
       padding: 30px 30px 30px 25px;
-      border-radius: 60px 50px 60px 50px;
+      border-radius: 30px 30px 30px 30px;
       display: flex;
       align-items: center;
       margin-top: 20px;
       box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+      max-width: 510px;
       
+    }
+
+    .fonctionnement i {
+      color: #bcbcbc;
     }
 
     #spanF {
@@ -278,8 +253,10 @@ Style.css
       padding-left: 10px;
       padding-bottom: 10px;
       float: left;
-      display: flex;
       font-size: 1.4em;
+      left: 5%;
+      top: 5%;
+      
     
       
     }
@@ -287,7 +264,8 @@ Style.css
       #ohmyfoodlogo {
       display: block;
       margin: auto;
-      width: 30%;
+      width: 250px;
+      max-width: 510px;
       height: auto;
       text-align: center;
 
@@ -331,7 +309,7 @@ Style.css
       #blockrestaurants .card {
         margin-bottom: 30px;
       }
-      
+     
 
       
       #heartbutton{
@@ -354,17 +332,6 @@ Style.css
       #heartbutton:hover{
         color: #9356DC;
       }
-      
-    #heartbutton:hover{
-      color: #9356DC;
-    }
-
-      #restaurantcoeur {
-        color: #bcbcbc;
-        float: right;
-        padding: 20px;
-        transition: all 1s ease-out;
-      }
 
       #restaurantcoeurn {
         position: absolute;
@@ -378,18 +345,15 @@ Style.css
       #restaurantcoeurn:hover{
         color: #9356DC;
       }
-      #restaurantcoeur:hover{
-        color: #9356DC;
-      }
+     
 
 
         
-        #blockrestaurants h2{
-          font-size: 24px;
-          padding-bottom: 25px;
-          padding-top: 25px;
-        }
-
+       #restoh2{
+         padding-top: 40px;
+         padding-bottom: 20px;
+         font-size: 1.4em;
+       }
         #blockrestaurants {
           background-color: #f6f6f6;
           align-items: center;
@@ -409,7 +373,7 @@ Style.css
       width: 100%;
       margin:auto;
       height: 250px;
-      
+      max-width: 510px;
       background-color: white;
       border-radius: 20px;
       box-shadow: 0px 1px 19px 0px #bcbcbc;
@@ -418,7 +382,7 @@ Style.css
 
 
     #nouveau{
-
+      display: block;
       padding: 5px 10px 5px 10px;
       background-color: #99e2d0;
       position: absolute;
@@ -475,26 +439,30 @@ Style.css
       margin: auto;
       height: auto;
       width: 100%;
-      max-width: 881px;
+      max-width: 440px;
+      max-height: 440px;
       overflow: hidden;
       
     }
     #restofrançaisnote {
       display: block;
       margin: auto;
-      max-height: 300px;
+      height: auto;
       width: 100%;
-      max-width: 510px;
+      max-width: 440px;
+      max-height: 440px;
       overflow: hidden;
       
     }
     #restopalette {
       display: block;
       margin: auto;
-      height: 300px;
+      height: auto;
       width: 100%;
-      max-width: 881px;
+      max-width: 440px;
+      max-height: 440px;
       overflow: hidden;
+     
       }
 
     #menuimage{
@@ -509,11 +477,14 @@ Style.css
     }
 
     .blockfrançaise {
+      margin: auto;
+      justify-items: center;
       position: relative;
       background-color: white;
       padding-top: 50px;
       margin-top: -100px;
       border-radius:25px;
+      width: 100%;
     }
     .blockfrançaise a {
       display:inline-block; 
@@ -540,6 +511,8 @@ Style.css
     #menufrançais1 {
       padding: 20px 0 10px 10px;
       margin-right: 0;
+      max-width: 510px;
+      margin: auto;
       
     }
 
@@ -553,6 +526,8 @@ Style.css
     }
     #menufrançais2 {
       padding: 20px 0 10px 10px;
+      max-width: 510px;
+      margin: auto;
     }
 
     #menufrançais3::after{
@@ -565,10 +540,13 @@ Style.css
     }
     #menufrançais3 {
       padding: 20px 0 10px 10px;
+      margin: auto;
+      max-width: 510px;
+      
     }
 
     .cardprix:hover .overlay{
-      width: 15%;
+      width: 20%;
       left: 100%;
     }
 
@@ -583,6 +561,12 @@ Style.css
       width: 0;
       height: 100%;
       transition: .5s ease;
+    }
+
+    .overlay:hover #carddetail{
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
     }
 
     #check {
@@ -638,9 +622,12 @@ Style.css
     }
     .cardTextprix {
       width: 100%;
-      padding: 15px 10px;
+      padding-top: 15px;
+      padding-left: 15px;
       line-height: 15px;
       white-space: nowrap;
+    }
+
     }
     #cardprice{
       margin-right: 20px;
@@ -651,10 +638,21 @@ Style.css
     #carddetail{
       float: left;
       display: inline-block;
-    
-      width: 200px; 
-      height: 1.2em; 
+      width: 80%; 
+      font-size: 15px;
+      margin: 0%;
+      padding-top: 10px;
       font-size: 13px;
+    }
+
+    
+    
+    #cardprix:hover  #carddetail{
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+
     }
 
     .cardTextprix :hover #carddetail{
@@ -691,10 +689,7 @@ Style.css
     .blockfrançaise h3 {
     font-size: 1em;
     }
-    .blockfrançaise p {
-      font-size: 0.7em;
-    }
-
+    
 
     #bouttonmenus {
       height: 50px;
@@ -943,24 +938,17 @@ Style.css
     }
     .cardTextprix {
       width: 100%;
-      padding: 15px 10px;
       line-height: 15px;
       white-space: nowrap;
     }
     #cardprice{
+      position: relative;
       margin-right: 20px;
       display: inline-block;
       float: right;
       
     }
-    #carddetail{
-      float: left;
-      display: inline-block;
-    
-      width: 200px; 
-      height: 1.2em; 
-      font-size: 15px;
-    }
+   
 
     .cardTextprix :hover #carddetail{
       text-overflow: ellipsis;
@@ -997,7 +985,7 @@ Style.css
     font-size: 1em;
     }
     .blockfrançaise p {
-      font-size: 0.7em;
+      font-size: 1em;
     }
 
 
@@ -1102,10 +1090,13 @@ Style.css
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     z-index: 1;
     pointer-events: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
   }  
   #loadingspinner{
@@ -1118,7 +1109,7 @@ Style.css
        -webkit-text-fill-color:transparent;
 
     margin: auto;
-    font-size: 300px;
+    font-size: 200px;
     text-align: center;
       -webkit-animation-name: loadingspinner;
       animation-name: loadingspinner;
@@ -1165,4 +1156,5 @@ Style.css
 }
 
 
-}
+
+
