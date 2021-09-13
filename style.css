@@ -347,27 +347,27 @@ style.css
           drop-shadow(0 0 1px black);
 
       }
-      #heartbutton:hover{
-        -moz-animation:heartfill 5s ease-in-out 0.1s forwards;
+    #heartbutton:hover{
+        -moz-animation:heartfill 2s ease-in-out 0.1s forwards;
         -moz-transition-timing-function: linear;
-        -o-animation:heartfill 5s ease-in-out 0.1s forwards;
+        -o-animation:heartfill 2s ease-in-out 0.1s forwards;
         -o-transition-timing-function: linear;
-        -webkit-animation: heartfill 5s ease-in-out 0.1s forwards;
+        -webkit-animation: heartfill 2s ease-in-out 0.1s forwards;
         -webkit-transition-timing-function: linear;
-        animation: heartfill 5s ease-in-out 0.1s forwards;
+        animation: heartfill 2s ease-in-out 0.1s forwards;
         transition-timing-function: linear;
         
       }
 
   
       #restaurantcoeurn:hover{
-        -moz-animation:heartfill 5s ease-in-out 0.1s forwards;
+        -moz-animation:heartfill 2s ease-in-out 0.1s forwards;
         -moz-transition-timing-function: linear;
-        -o-animation:heartfill 5s ease-in-out 0.1s forwards;
+        -o-animation:heartfill 2s ease-in-out 0.1s forwards;
         -o-transition-timing-function: linear;
-        -webkit-animation: heartfill 5s ease-in-out 0.1s forwards;
+        -webkit-animation: heartfill 2s ease-in-out 0.1s forwards;
         -webkit-transition-timing-function: linear;
-        animation: heartfill 5s ease-in-out 0.1s forwards;
+        animation: heartfill 2s ease-in-out 0.1s forwards;
         transition-timing-function: linear;
        
       }
