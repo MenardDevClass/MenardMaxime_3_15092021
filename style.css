@@ -2,6 +2,802 @@
   font-family: "shrikhand";
   src: url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
 }
+/*******************************************
+      
+          Responsive 1920px
+
+*******************************************/
+@media  (max-width: 1920px) {
+  /*******************************************
+      
+          block menus 
+
+*******************************************/
+
+
+  .shrikhandh2 {
+    font-family: Shrikhand;
+    font-size: 24px;
+  }
+
+  #menufrançais1::after {
+    content: "";
+    display: block;
+    width: 32px;
+    padding-top: 3px;
+  }
+  
+  #menufrançais1 {
+    left: 0;
+    position: absolute;
+    padding: 20px 0 10px 10px;
+    width: 48%;
+  }
+  
+  #menufrançais2::after {
+    content: "";
+    display: block;
+    width: 32px;
+    padding-top: 3px;
+  }
+  
+  #menufrançais2 {
+    margin-left: auto;
+    padding: 20px 0 10px 10px;
+    width: 48%;
+  }
+  
+  #menufrançais3::after {
+    content: "";
+    display: block;
+    width: 32px;
+    padding-top: 3px;
+  }
+  
+  #menufrançais3 {
+    position: absolute;
+    padding: 20px 0 10px 10px;
+    width: 99%;
+  }
+
+  .blockfrançaise {
+    height: 800px;
+    position: relative;
+    background-color: white;
+    padding-top: 50px;
+    margin-top: -100px;
+    border-radius: 25px;
+    width: 100%;
+  }
+
+  #menuimage {
+    overflow: hidden;
+    background-position: center;
+    max-height: 440px;
+    display: block;
+    background-color: #eaeaea;
+    text-align: center;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 3px inset, rgba(204, 219, 232) 3px 3px 6px 3px inset;
+  }
+  
+
+  /*******************************************
+      
+          block restaurants
+
+*******************************************/
+  
+  #blockrestaurants{
+    text-align: center;
+    margin: auto;
+    flex-direction: row;
+    height: 700px;
+  }
+
+  .cardsInline{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+ 
+  
+  #card1{
+    position: relative;
+    left: 2%;
+    width: 45%;
+    height: 250px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 1px 19px 0px #bcbcbc;
+    color: black;
+  }
+
+  #card2{
+    position: absolute;
+    right: 2%;
+    width: 45%;
+    height: 250px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 1px 19px 0px #bcbcbc;
+    color: black;
+  }
+
+  #card3{
+    position: absolute;
+    right: 2%;
+    width: 45%;
+    margin-top: 280px;
+    height: 250px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 1px 19px 0px #bcbcbc;
+    color: black;
+  }
+
+  #card4{
+    position: absolute;
+    left: 2%;
+    width: 45%;
+    margin-top: 280px;
+    height: 250px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 1px 19px 0px #bcbcbc;
+    color: black;
+  }
+
+
+/*******************************************
+      
+        fonctionnement
+
+*******************************************/
+
+
+.fonctionnement{
+  display: flex;
+  flex-direction: row;
+}
+
+
+/*******************************************
+      
+        footer
+
+*******************************************/
+
+
+footer {
+  width: auto;
+  margin-top: 30px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #353535;
+  color: white;
+  text-align: center;
+  margin: auto;
+  flex-direction: column;
+  justify-content: space-between;
+}
+}
+
+
+/*******************************************
+      
+          responsive 1040px
+
+*******************************************/
+
+
+@media  (max-width: 1040px) {
+
+
+
+/*******************************************
+      
+        menus
+
+*******************************************/
+
+
+  .shrikhandh2 {
+    font-family: Shrikhand;
+    font-size: 24px;
+  }
+
+  #menufrançais1::after {
+    content: "";
+    display: block;
+    width: 32px;
+    padding-top: 3px;
+  }
+  
+  #menufrançais1 {
+    left: 0;
+    position: absolute;
+    padding: 20px 0 10px 10px;
+    width: 48%;
+  }
+  
+  #menufrançais2::after {
+    content: "";
+    display: block;
+    width: 32px;
+    padding-top: 3px;
+  }
+  
+  #menufrançais2 {
+    margin-left: auto;
+    padding: 20px 0 10px 10px;
+    width: 48%;
+  }
+  
+  #menufrançais3::after {
+    content: "";
+    display: block;
+    width: 32px;
+    padding-top: 3px;
+  }
+  
+  #menufrançais3 {
+    position: absolute;
+    padding: 20px 0 10px 10px;
+    width: 99%;
+  }
+
+  .blockfrançaise {
+    height: 800px;
+    position: relative;
+    background-color: white;
+    padding-top: 50px;
+    margin-top: -100px;
+    border-radius: 25px;
+    width: 100%;
+  }
+
+  #menuimage {
+    overflow: hidden;
+    background-position: center;
+    max-height: 440px;
+    display: block;
+    background-color: #eaeaea;
+    text-align: center;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 3px inset, rgba(204, 219, 232) 3px 3px 6px 3px inset;
+  }
+  
+
+  
+/*******************************************
+      
+        display restaurants index
+
+*******************************************/
+
+
+
+  #blockrestaurants{
+    text-align: center;
+    margin: auto;
+    flex-direction: row;
+    height: 700px;
+  }
+
+  .cardsInline{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  
+  #card1{
+    position: relative;
+    left: 2%;
+    width: 45%;
+    height: 250px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 1px 19px 0px #bcbcbc;
+    color: black;
+  }
+
+  #card2{
+    position: absolute;
+    right: 2%;
+    width: 45%;
+    height: 250px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 1px 19px 0px #bcbcbc;
+    color: black;
+  }
+
+  #card3{
+    position: absolute;
+    right: 2%;
+    width: 45%;
+    margin-top: 280px;
+    height: 250px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 1px 19px 0px #bcbcbc;
+    color: black;
+  }
+
+  #card4{
+    position: absolute;
+    left: 2%;
+    width: 45%;
+    margin-top: 280px;
+    height: 250px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 1px 19px 0px #bcbcbc;
+    color: black;
+  }
+
+
+/*******************************************
+      
+        fonctionnement
+
+*******************************************/
+
+
+
+.fonctionnement{
+  display: flex;
+  flex-direction: row;
+}
+}
+
+
+/*******************************************
+      
+          responsive 881px
+
+*******************************************/
+
+
+
+
+@media (max-width:881px) {
+
+
+/*******************************************
+      
+        page menus, display blocks
+
+*******************************************/
+  #menufrançais1::after {
+    content: "";
+    display: block;
+    width: 32px;
+    padding-top: 3px;
+  }
+  
+  #menufrançais1 {
+    position: relative;
+    margin: auto;
+    padding: 20px 0 10px 10px;
+    width: 90%;
+  }
+  
+  #menufrançais2::after {
+    content: "";
+    display: block;
+    width: 32px;
+    padding-top: 3px;
+  }
+  
+  #menufrançais2 {
+    position: relative;
+    margin: auto;
+    padding: 20px 0 10px 10px;
+    width: 90%;
+  }
+  
+  #menufrançais3::after {
+    content: "";
+    display: block;
+    width: 32px;
+    padding-top: 3px;
+  }
+  
+  #menufrançais3 {
+    position: relative;
+    margin: auto;
+    padding: 20px 0 10px 10px;
+    width: 90%;
+  }
+
+  .blockfrançaise {
+    height: auto;
+    flex-direction: column;
+    margin: auto;
+    justify-items: center;
+    position: relative;
+    background-color: white;
+    padding-top: 50px;
+    margin-top: -100px;
+    border-radius: 25px;
+    width: 100%;
+  }
+  
+  #menuimage {
+    background-position: center;
+    display: block;
+    max-height: 400px;
+    background-color: #eaeaea;
+    text-align: center;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 3px inset, rgba(204, 219, 232) 3px 3px 6px 3px inset;
+  }
+
+  .blockfrançaise {
+    margin: auto;
+    justify-items: center;
+    position: relative;
+    background-color: white;
+    padding-top: 50px;
+    margin-top: -100px;
+    border-radius: 25px;
+    width: 100%;
+  }
+
+
+
+/*******************************************
+      
+        display restaurants index
+
+*******************************************/
+
+
+  #blockrestaurants{
+    text-align: center;
+    margin: auto;
+    flex-direction: row;
+    height: 700px;
+  }
+
+  .cardsInline{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+ 
+  
+  #card1{
+    position: relative;
+    left: 2%;
+    width: 45%;
+    height: 250px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 1px 19px 0px #bcbcbc;
+    color: black;
+  }
+
+  #card2{
+    position: absolute;
+    right: 2%;
+    width: 45%;
+    height: 250px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 1px 19px 0px #bcbcbc;
+    color: black;
+  }
+
+  #card3{
+    position: absolute;
+    right: 2%;
+    width: 45%;
+    margin-top: 280px;
+    height: 250px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 1px 19px 0px #bcbcbc;
+    color: black;
+  }
+
+  #card4{
+    position: absolute;
+    left: 2%;
+    width: 45%;
+    margin-top: 280px;
+    height: 250px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 1px 19px 0px #bcbcbc;
+    color: black;
+  }
+  
+
+/*******************************************
+      
+        fonctionnement
+
+*******************************************/
+
+
+  .fonctionnement{
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  #fonctionnementun {
+    margin: auto;
+    padding: 30px 30px 30px 25px;
+    border-radius: 30px 30px 30px 30px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    width: 80%;
+  }
+  
+  #fonctionnementdeux {
+    margin: auto;
+    padding: 30px 30px 30px 25px;
+    border-radius: 30px 30px 30px 30px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    width: 80%;
+  }
+  
+  #fonctionnementtrois {
+    margin: auto;
+    padding: 30px 30px 30px 25px;
+    border-radius: 30px 30px 30px 30px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    width: 80%;
+  }
+  
+  
+}
+
+
+/*******************************************
+      
+          responsive 510px
+
+*******************************************/
+
+
+@media (max-width: 510px) {
+
+
+/*******************************************
+      
+        display menus
+
+*******************************************/
+
+
+  #menufrançais1::after {
+    content: "";
+    display: block;
+    width: 32px;
+    padding-top: 3px;
+  }
+  
+  #menufrançais1 {
+    position: relative;
+    padding: 20px 0 10px 10px;
+    max-width: 510px;
+  }
+  
+  #menufrançais2::after {
+    content: "";
+    display: block;
+    width: 32px;
+    padding-top: 3px;
+  }
+  
+  #menufrançais2 {
+    position: relative;
+    padding: 20px 0 10px 10px;
+    max-width: 510px;
+  }
+  
+  #menufrançais3::after {
+    content: "";
+    display: block;
+    width: 32px;
+    padding-top: 3px;
+  }
+  
+  #menufrançais3 {
+    padding: 20px 0 10px 10px;
+    max-width: 510px;
+  }
+  
+
+  .blockfrançaise {
+    flex-direction: column;
+    margin: auto;
+    justify-items: center;
+    position: relative;
+    background-color: white;
+    padding-top: 50px;
+    margin-top: -100px;
+    border-radius: 25px;
+    width: 100%;
+  }
+
+
+/*******************************************
+      
+      display restaurants index  
+
+*******************************************/
+
+
+  #blockrestaurants {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .cardsInline{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  
+  #card1{
+    left: 0;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    height: 250px;
+    max-width: 510px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 1px 19px 0px #bcbcbc;
+    color: black;
+    
+  }
+
+  #card2{
+    left: 0;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    height: 250px;
+    max-width: 510px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 1px 19px 0px #bcbcbc;
+    color: black;
+  
+  }
+
+  #card3{
+    left: 0;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    height: 250px;
+    max-width: 510px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 1px 19px 0px #bcbcbc;
+    color: black;
+    
+  }
+
+  #card4{
+    left: 0;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    height: 250px;
+    max-width: 510px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 1px 19px 0px #bcbcbc;
+    color: black;
+  }
+
+
+
+/*******************************************
+      
+        fonctionnement
+
+*******************************************/
+
+  .fonctionnement{
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  #fonctionnementun {
+    margin: auto;
+    padding: 30px 30px 30px 25px;
+    border-radius: 30px 30px 30px 30px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    width: 80%;
+  }
+  
+  #fonctionnementdeux {
+    margin: auto;
+    padding: 30px 30px 30px 25px;
+    border-radius: 30px 30px 30px 30px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    width: 80%;
+  }
+  
+  #fonctionnementtrois {
+    margin: auto;
+    padding: 30px 30px 30px 25px;
+    border-radius: 30px 30px 30px 30px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    width: 80%;
+  }
+
+
+
+/*******************************************
+      
+        footer
+
+*******************************************/
+
+
+  footer {
+    margin-top: 30px;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-bottom: 40px;
+    background-color: #353535;
+    color: white;
+    align-items: initial;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+/*******************************************
+      
+        fin du responsive
+
+*******************************************/
+
+
+
+/*******************************************
+      
+        common
+
+*******************************************/
 
 body {
   font-family: "Roboto", Arial, "Times New Roman";
@@ -17,12 +813,7 @@ h1 {
   font-size: 1.4rem;
 }
 
-.shrikhandh2 {
-  padding: 0 30px 0 30px;
-  font-family: Shrikhand;
-  font-size: 1.2rem;
-  margin: 0;
-}
+
 
 h2 {
   padding: 0 30px 0 30px;
@@ -43,6 +834,12 @@ header {
   height: 75px;
 }
 
+/*******************************************
+      
+                FOOTER
+
+*******************************************/
+
 #footerlines {
   width: 100%;
   padding-top: 10px;
@@ -53,17 +850,14 @@ header {
 
 }
 
-footer {
-  margin-top: 30px;
-  padding-top: 40px;
-  padding-left: 10%;
-  padding-bottom: 40px;
-  background-color: #353535;
-  color: white;
-  align-items: initial;
-  flex-direction: column;
-  justify-content: space-between;
-}
+
+
+/*******************************************
+      
+          bouton explorer
+
+*******************************************/
+
 
 #bouttonexplorer {
   height: 50px;
@@ -95,6 +889,13 @@ footer {
   box-shadow: inset 0 0 0 10em rgba(255, 255, 255, 0.3);
 }
 
+
+/*******************************************
+      
+              fonctionnement
+
+*******************************************/
+
 #fonctionnementh1 {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -110,6 +911,12 @@ footer {
 
 #fonctionnementtrois:hover {
   background-color: #f5edff;
+}
+
+.fonctionnement{
+  display: flex;
+  align-items: center;
+  
 }
 
 #fonctionnementun {
@@ -226,11 +1033,22 @@ footer {
   margin: 20px 20px 20px 20px;
   font-size: 1.2rem;
 }
+/*******************************************
+      
+              fin fonctionnement
 
+*******************************************/
 .blocklocres {
   display: block;
   justify-content: initial;
 }
+
+
+/*******************************************
+      
+              top nav
+
+*******************************************/
 
 .topnavomf {
   display: flex;
@@ -289,12 +1107,21 @@ footer {
   font-size: 20px;
 }
 
-.cardsInline {
-  flex-direction: column;
-}
+
+
+/*******************************************
+      
+            cards restaurants
+
+*******************************************/
+
+
+
 
 #blockrestaurants .card {
   margin-bottom: 30px;
+  margin-right: 0;
+  margin-left: 0;
 }
 
 #heartbutton {
@@ -319,6 +1146,16 @@ footer {
   -webkit-filter: drop-shadow(0 0 0 black) drop-shadow(0 0 1px black);
   filter: drop-shadow(0 0 0 black) drop-shadow(0 0 1px black);
 }
+
+
+
+/*******************************************
+      
+                boutons coeur
+
+*******************************************/
+
+
 
 #heartbutton:hover {
   -moz-animation: heartfill 2s ease-in-out 0.1s forwards;
@@ -383,11 +1220,27 @@ footer {
   }
 }
 
+
+/*******************************************
+      
+            Fin boutons coeurs
+
+*******************************************/
+
+
 #restoh2 {
   padding-top: 40px;
   padding-bottom: 20px;
   font-size: 1.4em;
 }
+
+
+/*******************************************
+      
+          block restaurants index
+
+*******************************************/
+
 
 #blockrestaurants {
   background-color: #f6f6f6;
@@ -405,17 +1258,7 @@ a:active {
   color: inherit;
 }
 
-.card {
-  text-align: center;
-  width: 100%;
-  margin: auto;
-  height: 250px;
-  max-width: 510px;
-  background-color: white;
-  border-radius: 20px;
-  box-shadow: 0px 1px 19px 0px #bcbcbc;
-  color: black;
-}
+
 
 .nouveau {
   display: block;
@@ -468,6 +1311,15 @@ a:active {
   padding-top: 50px;
 }
 
+
+/*******************************************
+      
+        délices des sens + à la française
+
+*******************************************/
+
+
+
 #restofrançais {
   display: block;
   margin: auto;
@@ -478,6 +1330,14 @@ a:active {
   width: fit-content;
   width: -moz-fit-content;
 }
+
+
+/*******************************************
+      
+          la note enchantée
+
+*******************************************/
+
 
 #restofrançaisnote {
   display: block;
@@ -490,6 +1350,13 @@ a:active {
   width: -moz-fit-content;
 }
 
+
+/*******************************************
+      
+          la palette du goût
+
+*******************************************/
+
 #restopalette {
   display: block;
   margin: auto;
@@ -501,26 +1368,23 @@ a:active {
   width: -moz-fit-content;
 }
 
-#menuimage {
-  background-position: center;
-  max-height: 440px;
-  display: block;
-  max-height: 400px;
-  background-color: #eaeaea;
-  text-align: center;
-  box-shadow: rgb(204, 219, 232) 3px 3px 6px 3px inset, rgba(204, 219, 232) 3px 3px 6px 3px inset;
-}
 
-.blockfrançaise {
-  margin: auto;
-  justify-items: center;
-  position: relative;
-  background-color: white;
-  padding-top: 50px;
-  margin-top: -100px;
-  border-radius: 25px;
-  width: 100%;
-}
+/*******************************************
+      
+            photos des menus
+
+*******************************************/
+
+
+
+
+/*******************************************
+      
+    block menus (entrées plats desserts)
+
+*******************************************/
+
+
 
 .blockfrançaise a {
   display: inline-block;
@@ -536,45 +1400,14 @@ a:active {
   border-bottom: 2px solid #99e2d0;
 }
 
-#menufrançais1::after {
-  content: "";
-  display: block;
-  width: 32px;
-  padding-top: 3px;
-}
 
-#menufrançais1 {
-  padding: 20px 0 10px 10px;
-  margin-right: 0;
-  max-width: 510px;
-  margin: auto;
-}
 
-#menufrançais2::after {
-  content: "";
-  display: block;
-  width: 32px;
-  padding-top: 3px;
-}
+/*******************************************
+      
+            overlay des plats
 
-#menufrançais2 {
-  padding: 20px 0 10px 10px;
-  max-width: 510px;
-  margin: auto;
-}
+*******************************************/
 
-#menufrançais3::after {
-  content: "";
-  display: block;
-  width: 32px;
-  padding-top: 3px;
-}
-
-#menufrançais3 {
-  padding: 20px 0 10px 10px;
-  margin: auto;
-  max-width: 510px;
-}
 
 .cardprix:hover .overlay {
   width: 30%;
@@ -613,6 +1446,14 @@ a:active {
   overflow: hidden;
   white-space: nowrap;
 }
+
+
+/*******************************************
+      
+        overlay logo check
+
+*******************************************/
+
 
 .cardprix .fas {
   transition: all 0.3s ease-in-out 0s;
@@ -696,17 +1537,24 @@ a:active {
   overflow: hidden;
   white-space: nowrap;
 }
-.cardsInline {
-  flex-direction: column;
-  margin-right: 10px;
-  margin-left: 10px;
-}
+
 .blockfrançaise .card {
   margin-bottom: 30px;
 }
 .blockfrançaise h3 {
   font-size: 1em;
 }
+
+
+
+/*******************************************
+      
+          bouton menus (commander)
+
+*******************************************/
+
+
+
 #bouttonmenus {
   height: 50px;
   background-image: linear-gradient(to bottom right, #FF79DA, #9356DC);
@@ -741,6 +1589,15 @@ a:active {
   width: 100%;
   margin: auto;
 }
+
+
+/*******************************************
+      
+       animation slide up fade in
+
+*******************************************/
+
+
 .blockfrançaise #menufrançais1 {
   animation: slide-up-fade-in ease 1s;
   animation-iteration-count: 1;
@@ -897,81 +1754,7 @@ a:active {
   -ms-animation-fill-mode: forwards;
   opacity: 0;
 }
-.cardprix a {
-  width: 100%;
-}
-.cardTextprix {
-  width: 100%;
-  line-height: 15px;
-  white-space: nowrap;
-}
-.cardprice {
-  position: relative;
-  margin-right: 20px;
-  display: inline-block;
-  float: right;
-}
-.cardTextprix :hover .carddetail {
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
-}
-.carddetail:hover {
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
-}
-.cardprix :hover .carddetail {
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
-}
-.cardsInline {
-  flex-direction: column;
-  margin-right: 10px;
-  margin-left: 10px;
-}
-.blockfrançaise .card {
-  margin-bottom: 30px;
-}
-.blockfrançaise h3 {
-  font-size: 1em;
-}
-.blockfrançaise p {
-  font-size: 1;
-}
-#bouttonmenus {
-  height: 50px;
-  background-color: pink;
-  background-image: linear-gradient(to bottom right, #FF79DA, #9356DC);
-  color: white;
-  position: relative;
-  right: 8px;
-  font-weight: 900;
-  font-size: 18px;
-  padding: 0 10px;
-  border-radius: 60px 60px 60px 60px;
-  border: none;
-  cursor: pointer;
-  margin-top: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-#bouttonmenus:active {
-  box-shadow: 0px 1px 19px 0px #bcbcbc;
-  background-color: #3e8e41;
-  transform: translateY(1px);
-}
-.container {
-  text-align: center;
-  width: 100%;
-  margin: auto;
-}
-.containermenu {
-  text-align: center;
-  width: 100%;
-  margin: auto;
-}
+
 @keyframes slide-up-fade-in {
   0% {
     opacity: 0;
@@ -1016,10 +1799,100 @@ a:active {
     -ms-transform: translate(0px, 0px);
   }
 }
+
+
+/*******************************************
+      
+          détails tailles menus 
+
+*******************************************/
+
+
+.cardprix a {
+  width: 100%;
+}
+.cardTextprix {
+  width: 100%;
+  line-height: 15px;
+  white-space: nowrap;
+}
+.cardprice {
+  position: relative;
+  margin-right: 20px;
+  display: inline-block;
+  float: right;
+}
+.cardTextprix :hover .carddetail {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.carddetail:hover {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.cardprix :hover .carddetail {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.blockfrançaise .card {
+  margin-bottom: 30px;
+}
+.blockfrançaise h3 {
+  font-size: 1em;
+}
+.blockfrançaise p {
+  font-size: 1rem;
+}
+#bouttonmenus {
+  height: 50px;
+  background-color: pink;
+  background-image: linear-gradient(to bottom right, #FF79DA, #9356DC);
+  color: white;
+  position: relative;
+  right: 8px;
+  font-weight: 900;
+  font-size: 18px;
+  padding: 0 10px;
+  border-radius: 60px 60px 60px 60px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#bouttonmenus:active {
+  box-shadow: 0px 1px 19px 0px #bcbcbc;
+  background-color: #3e8e41;
+  transform: translateY(1px);
+}
+.container {
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
+.containermenu {
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
+
 .clearfix {
   clear: both;
   zoom: 1;
 }
+
+
+/*******************************************
+      
+             loading spinner
+
+*******************************************/
+
+
 .loadingspinner {
   position: fixed;
   top: 0;
